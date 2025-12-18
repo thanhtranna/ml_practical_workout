@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs and debug
+logs/
+*.log
+
+# Data files (keep raw data elsewhere or track selectively)
+data/
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Model artifacts
+models/
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Outputs
+outputs/
+reports/
+figures/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage / test reports
+.coverage
+htmlcov/
+coverage.xml
